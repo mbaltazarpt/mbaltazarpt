@@ -5,9 +5,15 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        playfair: ["Playfair Display", "serif"],
+        abyssinica: ["Abyssinica SIL", "serif"],
+        oswald: ["Oswald", "sans-serif"]
+      }
+    },
   },
   plugins: [
-    require('flowbite/plugin')
+    require("flowbite/plugin")
   ],
 }

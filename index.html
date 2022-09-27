@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -9,14 +9,16 @@
   <script defer src="./src/flowbite/dist/flowbite.js"></script>
   <script defer src="./src/script.js"></script>
   <title>Miguel Baltazar</title>
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="mask-icon" href="./img/safari-pinned-tab.svg" color="#fafaf9">
+  <meta name="msapplication-TileColor" content="#fafaf9">
+  <meta name="theme-color" content="#fafaf9">
 </head>
 
-<body class="bg-stone-50 ">
+<body class="bg-stone-50 font-abyssinica">
   <nav class="fixed top-0 left-0 right-0 bg-stone-50 border-b border-stone-300 px-4 py-2.5 z-10">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a href="https://mbaltazar.pt/" class="flex items-center">
@@ -63,10 +65,11 @@
   </nav>
   <div class="h-screen">
     <img class="h-full object-cover" src="./img/hero-img.jpg" alt="Harder. Better. Faster. Stronger.">
-    <div class="bg-black opacity-70 w-full h-full absolute top-0 bottom-0 right-0 left-0"></div>
+    <div class="w-screen h-screen absolute top-0 bottom-0 right-0 left-0 bg-black opacity-70"></div>
     <div class="w-full h-full absolute top-0 bottom-0 right-0 left-0 flex flex-col justify-center items-center">
-      <span class="font-bold text-2xl text-stone-50">MBALTAZARPT</span>
-      <span class="font-bold text-xl text-stone-50">Harder • Better • Faster • Stronger</span>
+      <span class="text-center font-playfair tracking-[1rem] indent-4 text-xl text-stone-50">MBALTAZARPT</span>
+      <span class="font-oswald text-lg text-stone-50">Harder • Better • Faster •
+        Stronger</span>
     </div>
     <div class="w-full absolute flex justify-center bottom-5 text-stone-200">
       <a href="#about">
@@ -80,12 +83,12 @@
     </div>
   </div>
   <div class="divide-y">
-    <section id="about" class="px-4 py-4">
+    <section id="about" class="scroll-mt-[3.75rem] px-4 py-4">
       <h1 class="mb-4 py-4 text-3xl font-bold">
         Conheça o treinador
       </h1>
       <div class="my-4 flex justify-center">
-        <img class="rounded-lg h-96" src="./img/myself.jpg" alt="Miguel Baltazar Portrait">
+        <img class="rounded-lg h-96" src="./img/coach.jpg" alt="Miguel Baltazar Portrait">
       </div>
       <p class="py-2 pt-0">
         Bem-vindo, o meu nome é Miguel Baltazar e tenho 29 anos. Ao longo da minha vida sempre pratiquei exercício
@@ -108,7 +111,7 @@
         presencialmente no meu espaço, como nos packs de treino personalizado.
       </p>
     </section>
-    <section id="services" class="px-4 py-4 pb-8 bg-stone-600">
+    <section id="services" class="scroll-mt-[3.75rem] px-4 py-4 pb-8 bg-stone-600">
       <h1 class="mb-4 py-4 text-3xl font-bold text-stone-50">
         Serviços
       </h1>
@@ -149,7 +152,13 @@
       <h1 class="mb-4 py-4 text-3xl font-bold">
         Treino Presencial
       </h1>
-      <p class="py-2 pt-0">
+      <div class="mb-4 flex justify-center">
+        <a class="py-1 px-4 rounded-full font-medium bg-stone-700 text-stone-50"
+          href="https://mbaltazarpt.as.me/schedule.php">
+          Agenda uma sessão
+        </a>
+      </div>
+      <p class="py-2">
         O treino com acompanhamento presencial é realizado num espaço onde poderás atingir os teus objetivos de uma
         forma orientada e segura.
       </p>
@@ -160,7 +169,7 @@
         Para mais informções relativamente ao treino presencial
       </h2>
       <div class="py-2 flex justify-center">
-        <a class="py-1 px-4 rounded-full font-semibold bg-stone-700 text-stone-50" href="#contacts">
+        <a class="py-1 px-4 rounded-full font-medium bg-stone-700 text-stone-50" href="#contacts">
           Clica aqui
         </a>
       </div>
@@ -169,7 +178,7 @@
         frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
       </iframe>
     </section>
-    <section id="packs" class="px-4 py-4 pb-8 bg-stone-600">
+    <section id="packs" class="scroll-mt-[3.75rem] px-4 py-4 pb-8 bg-stone-600">
       <h1 class="mb-4 py-4 text-3xl font-bold text-stone-50">
         Packs - Treinos Personalizados Online
       </h1>
@@ -402,18 +411,7 @@
         </a>
       </div>
     </section>
-    <section class="px-4 py-4 pb-8">
-      <h1 class="mb-4 py-4 text-3xl font-bold">
-        Começa o teu treino hoje
-      </h1>
-      <div class="flex justify-center">
-        <a class="py-1 px-4 rounded-full font-semibold bg-stone-700 text-stone-50"
-          href="https://mbaltazarpt.as.me/schedule.php">
-          Agenda uma sessão
-        </a>
-      </div>
-    </section>
-    <section id="contacts" class="px-4 py-4 pb-8">
+    <section id="contacts" class="scroll-mt-[3.75rem] px-4 py-4 pb-8">
       <h1 class="mb-4 py-4 text-3xl font-bold">
         Contactos
       </h1>
@@ -423,7 +421,7 @@
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
-        <a class="font-semibold text-lg" href="https://wa.me/+351965335665">Whatsapp</a>
+        <a class="font-medium text-lg" href="https://wa.me/+351965335665">Whatsapp</a>
       </div>
       <div class="flex flex-row gap-x-2 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -431,7 +429,7 @@
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
         </svg>
-        <a class="font-semibold text-lg" href="tel:+351965335665">+351 965 335 665</a>
+        <a class="font-medium text-lg" href="tel:+351965335665">+351 965 335 665</a>
       </div>
       <div class="flex flex-row gap-x-2 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -439,7 +437,7 @@
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
         </svg>
-        <a class="font-semibold text-lg"
+        <a class="font-medium text-lg"
           href="mailto:miguelfernandesbaltazar@gmail.com">miguelfernandesbaltazar@gmail.com</a>
       </div>
     </section>
