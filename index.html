@@ -64,11 +64,12 @@
     </div>
   </nav>
   <div class="h-screen">
-    <img class="h-full object-cover" src="./img/hero-img.jpg" alt="Harder. Better. Faster. Stronger.">
-    <div class="w-screen h-screen absolute top-0 bottom-0 right-0 left-0 bg-black opacity-70"></div>
+    <img class="h-full w-full object-cover" src="./img/hero-img.jpg" alt="Harder. Better. Faster. Stronger.">
+    <div class="w-full h-screen absolute top-0 bottom-0 right-0 left-0 bg-black opacity-70"></div>
     <div class="w-full h-full absolute top-0 bottom-0 right-0 left-0 flex flex-col justify-center items-center">
-      <span class="text-center font-playfair tracking-[1rem] indent-4 text-xl text-stone-50">MBALTAZARPT</span>
-      <span class="font-oswald text-lg text-stone-50">Harder • Better • Faster •
+      <span
+        class="text-center font-playfair tracking-[1rem] indent-4 text-2xl lg:text-3xl text-stone-50">MBALTAZARPT</span>
+      <span class="font-oswald text-lg lg:text-2xl text-stone-50">Harder • Better • Faster •
         Stronger</span>
     </div>
     <div class="w-full absolute flex justify-center bottom-5 text-stone-200">
@@ -82,337 +83,357 @@
       </a>
     </div>
   </div>
-  <div class="divide-y">
-    <section id="about" class="scroll-mt-[3.75rem] px-4 py-4">
-      <h1 class="mb-4 py-4 text-3xl font-bold">
+  <section id="about" class="scroll-mt-[3.75rem] px-4 py-4 flex justify-center">
+    <div class="lg:mx-20 md:w-[50rem] lg:w-[80rem] max-w-screen-xl">
+      <h1 class="mb-4 py-4 text-2xl lg:text-4xl font-bold">
         Conheça o treinador
       </h1>
-      <div class="my-4 flex justify-center">
-        <img class="rounded-lg h-96" src="./img/coach.jpg" alt="Miguel Baltazar Portrait">
+      <div class="flex flex-col md:flex-row gap-8 lg:gap-10 xl:gap-40 justify-center items-center">
+        <div class="shrink-0 my-4 flex justify-center">
+          <img class="rounded-lg h-96" src="./img/coach.jpg" alt="Coach Portrait">
+        </div>
+        <div class="flex flex-col justify-center lg:text-xl">
+          <p class="py-2 pt-0">
+            Bem-vindo, o meu nome é Miguel Baltazar e tenho 29 anos. Ao longo da minha vida sempre pratiquei exercício
+            físico
+            começando desde cedo no remo onde fui federado durante 10 anos. Foi através da minha formação acadêmica que
+            tornei
+            possível tornar um hobbie, algo que amava fazer para mim e por mim, numa profissão e conseguir assim mudar a
+            vida
+            de tantas pessoas, tanto na sua saúde e bem-estar como na sua auto-estima. Possuo até ao momento grau
+            académico
+            de
+            mestre em exercício e saúde pela FMH.
+          </p>
+          <p class="py-2">
+            A ambição de criar o meu próprio negócio teve sempre como finalidade encontrar nele a liberdade para criar
+            um
+            espaço onde todos se pudessem sentir bem, sem julgamentos, prontos para mudar e criar novos hábitos de
+            treino.
+          </p>
+          <p class="py-2">
+            É isso que vais encontrar aqui, um espaço onde os treinos são personalizados e à tua medida, à tua
+            realidade,
+            seja
+            presencialmente no meu espaço, como nos packs de treino personalizado.
+          </p>
+        </div>
       </div>
-      <p class="py-2 pt-0">
-        Bem-vindo, o meu nome é Miguel Baltazar e tenho 29 anos. Ao longo da minha vida sempre pratiquei exercício
-        físico
-        começando desde cedo no remo onde fui federado durante 10 anos. Foi através da minha formação acadêmica que
-        tornei
-        possível tornar um hobbie, algo que amava fazer para mim e por mim, numa profissão e conseguir assim mudar a
-        vida
-        de tantas pessoas, tanto na sua saúde e bem-estar como na sua auto-estima. Possuo até ao momento grau académico
-        de
-        mestre em exercício e saúde pela FMH.
-      </p>
-      <p class="py-2">
-        A ambição de criar o meu próprio negócio teve sempre como finalidade encontrar nele a liberdade para criar um
-        espaço onde todos se pudessem sentir bem, sem julgamentos, prontos para mudar e criar novos hábitos de treino.
-      </p>
-      <p class="py-2">
-        É isso que vais encontrar aqui, um espaço onde os treinos são personalizados e à tua medida, à tua realidade,
-        seja
-        presencialmente no meu espaço, como nos packs de treino personalizado.
-      </p>
-    </section>
-    <section id="services" class="scroll-mt-[3.75rem] px-4 py-4 pb-8 bg-stone-600">
-      <h1 class="mb-4 py-4 text-3xl font-bold text-stone-50">
+    </div>
+  </section>
+  <section id="services" class="scroll-mt-[3.75rem] px-4 py-4 pb-8 bg-stone-600 flex justify-center">
+    <div class="lg:mx-20 md:w-[50rem] lg:w-[80rem] max-w-screen-xl">
+      <h1 class="mb-4 py-4 text-2xl lg:text-4xl font-bold text-stone-50">
         Serviços
       </h1>
-      <div
-        class="mb-4 flex flex-col items-center bg-stone-50 rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-stone-100">
-        <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-          src="./img/service-online.jpg" alt="">
-        <div class="flex flex-col justify-between p-4 leading-normal">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-stone-900">Acompanhamento online</h5>
-          <p class="mb-3 font-normal text-stone-700">Treino personalizado, adaptado aos teus
-            objetivos, em que podes ter acesso ao planeamento para a tua semana de treinos através de uma app
-            interativa.</p>
+      <div class="flex flex-wrap justify-center gap-8">
+        <div
+          class="flex flex-col items-center bg-stone-50 rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-stone-100">
+          <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+            src="./img/service-online.jpg" alt="">
+          <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-stone-900">Acompanhamento online</h5>
+            <p class="mb-3 font-normal text-stone-700">Treino personalizado, adaptado aos teus
+              objetivos, em que podes ter acesso ao planeamento para a tua semana de treinos através de uma app
+              interativa.</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center bg-stone-50 rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-stone-100">
+          <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+            src="./img/service-training.jpg" alt="">
+          <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-stone-900">Treino presencial</h5>
+            <p class="mb-3 font-normal text-stone-700">Treino personalizado e acompanhado em que podes
+              trazer até mais dois amigos (max 3 pessoas por treino).</p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center bg-stone-50 rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-stone-100">
+          <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+            src="./img/service-massage.jpg" alt="">
+          <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-stone-900">Massagem terapêutica e de
+              recuperação</h5>
+            <p class="mb-3 font-normal text-stone-700">Massagem com fins terapêuticos que te permite
+              veres-te livre da dor e tensões musculares, bem como, recuperar e relaxar.</p>
+          </div>
         </div>
       </div>
-      <div
-        class="mb-8 flex flex-col items-center bg-stone-50 rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-stone-100">
-        <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-          src="./img/service-training.jpg" alt="">
-        <div class="flex flex-col justify-between p-4 leading-normal">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-stone-900">Treino presencial</h5>
-          <p class="mb-3 font-normal text-stone-700">Treino personalizado e acompanhado em que podes
-            trazer até mais dois amigos (max 3 pessoas por treino).</p>
-        </div>
-      </div>
-      <div
-        class="mb-8 flex flex-col items-center bg-stone-50 rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-stone-100">
-        <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-          src="./img/service-massage.jpg" alt="">
-        <div class="flex flex-col justify-between p-4 leading-normal">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-stone-900">Massagem terapêutica e de
-            recuperação</h5>
-          <p class="mb-3 font-normal text-stone-700">Massagem com fins terapêuticos que te permite
-            veres-te livre da dor e tensões musculares, bem como, recuperar e relaxar.</p>
-        </div>
-      </div>
-    </section>
-    <section class="px-4 py-4 pb-8">
-      <h1 class="mb-4 py-4 text-3xl font-bold">
+    </div>
+  </section>
+  <section class="px-4 py-4 pb-8 flex justify-center">
+    <div class="lg:mx-20 md:w-[50rem] lg:w-[80rem] max-w-screen-xl">
+      <h1 class="mb-4 py-4 text-2xl lg:text-4xl font-bold">
         Treino Presencial
       </h1>
       <div class="mb-4 flex justify-center">
-        <a class="py-1 px-4 rounded-full font-medium bg-stone-700 text-stone-50"
+        <a class="py-1 px-4 rounded-full lg:font-medium font-light bg-stone-700 text-stone-50"
           href="https://mbaltazarpt.as.me/schedule.php">
           Agenda uma sessão
         </a>
       </div>
-      <p class="py-2">
+      <p class="py-2 lg:text-xl">
         O treino com acompanhamento presencial é realizado num espaço onde poderás atingir os teus objetivos de uma
         forma orientada e segura.
       </p>
-      <p class="py-2 pt-0">
+      <p class="py-2 pt-0 lg:text-xl">
         Tens ainda a possibilidade de treinar com mais dois amigos perfazendo assim o máximo de 3 pessoas.
       </p>
-      <h2 class="py-2 text-lg font-semibold">
+      <h2 class="py-2 text-lg lg:text-xl lg:font-semibold">
         Para mais informções relativamente ao treino presencial
       </h2>
       <div class="py-2 flex justify-center">
-        <a class="py-1 px-4 rounded-full font-medium bg-stone-700 text-stone-50" href="#contacts">
+        <a class="py-1 px-4 rounded-full font-medium font-light bg-stone-700 text-stone-50" href="#contacts">
           Clica aqui
         </a>
       </div>
-      <iframe class="pt-4" width="100%" height="100%" id="gmap_canvas"
+      <iframe class="h-60 md:h-96 pt-4" width="100%" height="100%" id="gmap_canvas"
         src="https://maps.google.com/maps?q=Av.%20Rep%C3%BAblica%2052,%202830-341%20Barreiro&t=&z=15&ie=UTF8&iwloc=&output=embed"
         frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
       </iframe>
-    </section>
-    <section id="packs" class="scroll-mt-[3.75rem] px-4 py-4 pb-8 bg-stone-600">
-      <h1 class="mb-4 py-4 text-3xl font-bold text-stone-50">
+    </div>
+  </section>
+  <section id="packs" class="scroll-mt-[3.75rem] px-4 py-4 pb-8 bg-stone-600 flex justify-center">
+    <div class="lg:mx-20 md:w-[50rem] lg:w-[80rem] max-w-screen-xl">
+      <h1 class="mb-4 py-4 text-2xl lg:text-4xl font-bold text-stone-50">
         Packs - Treinos Personalizados Online
       </h1>
-      <div class="mb-8 p-4 w-full max-w-sm bg-stone-50 rounded-lg border shadow-md sm:p-8">
-        <h5 class="mb-4 text-xl font-medium text-stone-500">1 mês</h5>
-        <div class="flex items-baseline text-stone-900">
-          <span class="text-5xl font-extrabold tracking-tight">40</span>
-          <span class="text-3xl font-semibold">€</span>
+      <div class="flex flex-col md:flex-row flex-wrap xl:flex-nowrap justify-center gap-8">
+        <div class="p-4 w-full max-w-sm bg-stone-50 rounded-lg border shadow-md sm:p-8">
+          <h5 class="mb-4 text-xl font-medium text-stone-500">1 mês</h5>
+          <div class="flex items-baseline text-stone-900">
+            <span class="text-5xl font-extrabold tracking-tight">40</span>
+            <span class="text-3xl font-semibold">€</span>
+          </div>
+          <ul role="list" class="my-7 space-y-5">
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Plano de Treino personalizado com acesso à App Interativa
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Uma videochamada mensal
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Whatsapp 24h
+              </span>
+            </li>
+            <li class="flex space-x-3 line-through decoration-gray-500">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-400" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-500">
+                Renovação do plano de treino
+              </span>
+            </li>
+          </ul>
+          <a class="text-white bg-stone-600 hover:bg-stone-700 focus:ring-4 focus:outline-none focus:ring-stone-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+            href="https://wa.me/+351965335665?text=Ol%C3%A1%2C+gostaria+de+escolher+o+plano+de+treino+de+1+m%C3%AAs">
+            Escolher plano
+          </a>
         </div>
-        <ul role="list" class="my-7 space-y-5">
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Plano de Treino personalizado com acesso à App Interativa
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Uma videochamada mensal
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Whatsapp 24h
-            </span>
-          </li>
-          <li class="flex space-x-3 line-through decoration-gray-500">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-400" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-500">
-              Renovação do plano de treino
-            </span>
-          </li>
-        </ul>
-        <a class="text-white bg-stone-600 hover:bg-stone-700 focus:ring-4 focus:outline-none focus:ring-stone-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
-          href="https://wa.me/+351965335665?text=Ol%C3%A1%2C+gostaria+de+escolher+o+plano+de+treino+de+1+m%C3%AAs">
-          Escolher plano
-        </a>
-      </div>
-      <div class="mb-8 p-4 w-full max-w-sm bg-stone-50 rounded-lg border shadow-md sm:p-8">
-        <h5 class="mb-4 text-xl font-medium text-stone-700">2 meses</h5>
-        <div class="flex items-baseline text-gray-900">
-          <span class="text-5xl font-extrabold tracking-tight">70</span>
-          <span class="text-3xl font-semibold">€</span>
+        <div class="p-4 w-full max-w-sm bg-stone-50 rounded-lg border shadow-md sm:p-8">
+          <h5 class="mb-4 text-xl font-medium text-stone-700">2 meses</h5>
+          <div class="flex items-baseline text-gray-900">
+            <span class="text-5xl font-extrabold tracking-tight">70</span>
+            <span class="text-3xl font-semibold">€</span>
+          </div>
+          <ul role="list" class="my-7 space-y-5">
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Plano de Treino personalizado com acesso à App Interativa
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Uma videochamada mensal
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Whatsapp 24h
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Renovação do plano de treino
+              </span>
+            </li>
+          </ul>
+          <a class="text-white bg-stone-600 hover:bg-stone-700 focus:ring-4 focus:outline-none focus:ring-stone-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+            href="https://wa.me/+351965335665?text=Ol%C3%A1%2C+gostaria+de+escolher+o+plano+de+treino+de+2+meses">
+            Escolher plano
+          </a>
         </div>
-        <ul role="list" class="my-7 space-y-5">
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Plano de Treino personalizado com acesso à App Interativa
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Uma videochamada mensal
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Whatsapp 24h
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Renovação do plano de treino
-            </span>
-          </li>
-        </ul>
-        <a class="text-white bg-stone-600 hover:bg-stone-700 focus:ring-4 focus:outline-none focus:ring-stone-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
-          href="https://wa.me/+351965335665?text=Ol%C3%A1%2C+gostaria+de+escolher+o+plano+de+treino+de+2+meses">
-          Escolher plano
-        </a>
-      </div>
-      <div class="mb-8 p-4 w-full max-w-sm bg-stone-50 rounded-lg border shadow-md sm:p-8">
-        <h5 class="mb-4 text-xl font-medium text-stone-700">3 meses</h5>
-        <div class="flex items-baseline text-gray-900">
-          <span class="text-5xl font-extrabold tracking-tight">100</span>
-          <span class="text-3xl font-semibold">€</span>
+        <div class="p-4 w-full max-w-sm bg-stone-50 rounded-lg border shadow-md sm:p-8">
+          <h5 class="mb-4 text-xl font-medium text-stone-700">3 meses</h5>
+          <div class="flex items-baseline text-gray-900">
+            <span class="text-5xl font-extrabold tracking-tight">100</span>
+            <span class="text-3xl font-semibold">€</span>
+          </div>
+          <ul role="list" class="my-7 space-y-5">
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Plano de Treino personalizado com acesso à App Interativa
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Uma videochamada mensal
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Whatsapp 24h
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Renovação do plano de treino
+              </span>
+            </li>
+          </ul>
+          <a class="text-white bg-stone-600 hover:bg-stone-700 focus:ring-4 focus:outline-none focus:ring-stone-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+            href="https://wa.me/+351965335665?text=Ol%C3%A1%2C+gostaria+de+escolher+o+plano+de+treino+de+3+meses">
+            Escolher plano
+          </a>
         </div>
-        <ul role="list" class="my-7 space-y-5">
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Plano de Treino personalizado com acesso à App Interativa
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Uma videochamada mensal
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Whatsapp 24h
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Renovação do plano de treino
-            </span>
-          </li>
-        </ul>
-        <a class="text-white bg-stone-600 hover:bg-stone-700 focus:ring-4 focus:outline-none focus:ring-stone-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
-          href="https://wa.me/+351965335665?text=Ol%C3%A1%2C+gostaria+de+escolher+o+plano+de+treino+de+3+meses">
-          Escolher plano
-        </a>
-      </div>
-      <div class="mb-8 p-4 w-full max-w-sm bg-stone-50 rounded-lg border shadow-md sm:p-8">
-        <h5 class="mb-4 text-xl font-medium text-stone-700">6 meses</h5>
-        <div class="flex items-baseline text-gray-900">
-          <span class="text-5xl font-extrabold tracking-tight">180</span>
-          <span class="text-3xl font-semibold">€</span>
+        <div class="p-4 w-full max-w-sm bg-stone-50 rounded-lg border shadow-md sm:p-8">
+          <h5 class="mb-4 text-xl font-medium text-stone-700">6 meses</h5>
+          <div class="flex items-baseline text-gray-900">
+            <span class="text-5xl font-extrabold tracking-tight">180</span>
+            <span class="text-3xl font-semibold">€</span>
+          </div>
+          <ul role="list" class="my-7 space-y-5">
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Plano de Treino personalizado com acesso à App Interativa
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Uma videochamada mensal
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Whatsapp 24h
+              </span>
+            </li>
+            <li class="flex space-x-3">
+              <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor"
+                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-base font-normal leading-tight text-stone-700">
+                Renovação do plano de treino
+              </span>
+            </li>
+          </ul>
+          <a class="text-white bg-stone-600 hover:bg-stone-700 focus:ring-4 focus:outline-none focus:ring-stone-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+            href="https://wa.me/+351965335665?text=Ol%C3%A1%2C+gostaria+de+escolher+o+plano+de+treino+de+6+meses">
+            Escolher plano
+          </a>
         </div>
-        <ul role="list" class="my-7 space-y-5">
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Plano de Treino personalizado com acesso à App Interativa
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Uma videochamada mensal
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Whatsapp 24h
-            </span>
-          </li>
-          <li class="flex space-x-3">
-            <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5 text-stone-700" fill="currentColor" viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-base font-normal leading-tight text-stone-700">
-              Renovação do plano de treino
-            </span>
-          </li>
-        </ul>
-        <a class="text-white bg-stone-600 hover:bg-stone-700 focus:ring-4 focus:outline-none focus:ring-stone-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
-          href="https://wa.me/+351965335665?text=Ol%C3%A1%2C+gostaria+de+escolher+o+plano+de+treino+de+6+meses">
-          Escolher plano
-        </a>
       </div>
-    </section>
-    <section id="contacts" class="scroll-mt-[3.75rem] px-4 py-4 pb-8">
-      <h1 class="mb-4 py-4 text-3xl font-bold">
+    </div>
+  </section>
+  <section id="contacts" class="scroll-mt-[3.75rem] px-4 py-4 pb-8 flex justify-center">
+    <div class="lg:mx-20 md:w-[50rem] lg:w-[80rem] max-w-screen-xl">
+      <h1 class="mb-4 py-4 text-2xl lg:text-4xl font-bold">
         Contactos
       </h1>
       <div class="flex flex-row gap-x-2 items-center">
@@ -440,9 +461,9 @@
         <a class="font-medium text-lg"
           href="mailto:miguelfernandesbaltazar@gmail.com">miguelfernandesbaltazar@gmail.com</a>
       </div>
-    </section>
-  </div>
-  <footer class="flex justify-center items-center bg-stone-600 h-28">
+    </div>
+  </section>
+  <footer class="flex justify-center items-center bg-stone-600 h-28 flex justify-center">
     <span class="text-stone-50 font-medium">
       MBALTAZARPT - 2022
     </span>
